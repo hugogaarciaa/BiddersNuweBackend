@@ -11,7 +11,7 @@ public class HackathonApplication {
 
 	public static void main(String[] args) {
 		ApplicationContext context = SpringApplication.run(HackathonApplication.class, args);
-		//String port = context.getEnvironment().getProperty("server.port");
+		String port = context.getEnvironment().getProperty("server.port");
 	}
 
 }
